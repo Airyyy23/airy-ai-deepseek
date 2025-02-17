@@ -2,7 +2,7 @@ import { useLayoutEffect, useRef, useState } from 'react';
 import { ChatMessage } from '~/components/ChatMessage';
 import { Button } from '~/components/ui/button';
 import { Textarea } from '~/components/ui/textarea';
-import ollama from 'ollama/browser';
+import ollama from 'ollama';
 import { ThoughtMessage } from '~/components/ThoughtMessage';
 import { db } from '~/lib/dexie';
 import { useParams } from 'react-router';
